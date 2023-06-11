@@ -1,10 +1,10 @@
 import React, { useState, ReactNode } from "react";
 import { Link } from "react-router-dom";
 import {
-    HomeFilled,
-    UserAddOutlined,
-    UserDeleteOutlined,
-    UserOutlined,
+    SortAscendingOutlined,
+    PlusSquareOutlined,
+    MinusSquareOutlined,
+    FormOutlined,
 } from "@ant-design/icons";
 import { ConfigProvider } from "antd";
 import { Layout, Menu } from "antd";
@@ -22,26 +22,26 @@ const items: MenuItem[] = [
     {
         key: "1",
         label: "Ver registros",
-        icon: <HomeFilled />,
+        icon: <SortAscendingOutlined />,
         link: "/"
     },
     {
         key: "2",
         label: "Editar registros",
-        icon: <UserOutlined />,
-        link: "/employees"
+        icon: <FormOutlined />,
+        link: "/EditarRegistro"
     },
     {
         key: "3",
         label: "Agregar registros",
-        icon: <UserAddOutlined />,
-        link: "/new-employee"
+        icon: <PlusSquareOutlined />,
+        link: "/NuevoRegistro"
     },
     {
         key: "4",
         label: "Eliminar registros",
-        icon: <UserDeleteOutlined />,
-        link: "/delete-employee"
+        icon: <MinusSquareOutlined />,
+        link: "/EliminarRegistro"
     },
 ];
 
