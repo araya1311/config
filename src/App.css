@@ -12,10 +12,10 @@ body{
   width: 100%;
 }
 .logo {
-  margin-right: 25%;
+  margin-right: 15%;
 }
 .logo img {
-  margin: 25% 0 0 0;
+  margin: 15% 0 0 0;
   max-width: 100%;
 }
 @media (max-width: 750px) {

@@ -21,25 +21,25 @@ interface MenuItem {
 const items: MenuItem[] = [
     {
         key: "1",
-        label: "Dashboard",
+        label: "Ver registros",
         icon: <HomeFilled />,
         link: "/"
     },
     {
         key: "2",
-        label: "Employees",
+        label: "Editar registros",
         icon: <UserOutlined />,
         link: "/employees"
     },
     {
         key: "3",
-        label: "Add a new Employee",
+        label: "Agregar registros",
         icon: <UserAddOutlined />,
         link: "/new-employee"
     },
     {
         key: "4",
-        label: "Remove an Employee",
+        label: "Eliminar registros",
         icon: <UserDeleteOutlined />,
         link: "/delete-employee"
     },
