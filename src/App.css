@@ -49,3 +49,41 @@ body{
 .form {
   width: 800px;
 }
+
+/* VerRegistro */
+.verRegistros {
+  padding: 20px;
+}
+
+.verRegistros .responsive-table-ver-registros {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.verRegistros .responsive-table-ver-registros th,
+.verRegistros .responsive-table-ver-registros td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.verRegistros .responsive-table-ver-registros th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+.verRegistros .container-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.verRegistros .pagination {
+  margin-left: 10px;
+}
+
+.verRegistros .logo-ufinet {
+  max-width: 50px;
+  max-height: 50px;
+}
